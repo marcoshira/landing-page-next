@@ -1,0 +1,5 @@
+[submodule "src/templates/Base"]
+
+    path = src/templates/Base
+
+    url = git://github.com/marcoshira/landing-pages-next.git
