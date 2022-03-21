@@ -1,22 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GridTwoColumn /> should render 2 column grid 1`] = `
-.c0 {
-  background: #FFFFFF;
-  color: #0A1128;
-  background: #FFFFFF;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c5 {
   color: inherit;
   font-size: 6.4rem;
@@ -44,8 +28,25 @@ exports[`<GridTwoColumn /> should render 2 column grid 1`] = `
   width: 100%;
 }
 
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c6 {
   font-size: 2.4rem;
+  padding: 0rem;
 }
 
 @media (max-width:768px) {
@@ -87,11 +88,11 @@ exports[`<GridTwoColumn /> should render 2 column grid 1`] = `
           >
             Grid two columns
           </h2>
-          <p
+          <div
             class="c6"
           >
             Lore, ipsum dolor sit amet consectetur adipisicing elit. Atque a, nostrum architecto modi omnis adipisci, est ullam in fugit expedita sapiente aperiam et quasi facere quisquam consequuntur numquam perspiciatis laudantium?
-          </p>
+          </div>
         </div>
         <div
           class=""

@@ -31,6 +31,7 @@ SectionBackground.propTypes = {
     'yellow',
     'brown',
     'grey',
+    'oi',
   ]),
   sectionId: P.string,
   color: P.oneOf([
@@ -47,5 +48,6 @@ SectionBackground.propTypes = {
     'yellow',
     'brown',
     'grey',
+    'oi',
   ]),
 };

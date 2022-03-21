@@ -16,14 +16,15 @@ describe('<TextComponent />', () => {
     expect(container).toMatchInlineSnapshot(`
       .c0 {
         font-size: 2.4rem;
+        padding: 0rem;
       }
 
       <div>
-        <p
+        <div
           class="c0"
         >
           Children
-        </p>
+        </div>
       </div>
     `);
   });

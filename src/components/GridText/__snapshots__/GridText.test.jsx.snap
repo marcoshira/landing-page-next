@@ -1,22 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GridText /> should render 1`] = `
-.c0 {
-  background: #FFFFFF;
-  color: #0A1128;
-  background: #FFFFFF;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c4 {
   color: inherit;
   font-size: 6.4rem;
@@ -31,6 +15,7 @@ exports[`<GridText /> should render 1`] = `
 
 .c6 {
   font-size: 2.4rem;
+  padding: 0rem;
 }
 
 .c2 .c5 {
@@ -70,6 +55,22 @@ exports[`<GridText /> should render 1`] = `
   width: 100%;
 }
 
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media (max-width:768px) {
   .c4 {
     font-size: 4.0rem;
@@ -99,11 +100,11 @@ exports[`<GridText /> should render 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Atue doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -115,11 +116,11 @@ exports[`<GridText /> should render 1`] = `
             >
               Teste 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -129,11 +130,11 @@ exports[`<GridText /> should render 1`] = `
             >
               Teste 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -143,11 +144,11 @@ exports[`<GridText /> should render 1`] = `
             >
               Teste 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -157,22 +158,6 @@ exports[`<GridText /> should render 1`] = `
 `;
 
 exports[`<GridText /> should render without background and text color 1`] = `
-.c0 {
-  background: #FFFFFF;
-  color: #0A1128;
-  background: #FFFFFF;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .c4 {
   color: inherit;
   font-size: 6.4rem;
@@ -187,6 +172,7 @@ exports[`<GridText /> should render without background and text color 1`] = `
 
 .c6 {
   font-size: 2.4rem;
+  padding: 0rem;
 }
 
 .c2 .c5 {
@@ -226,6 +212,22 @@ exports[`<GridText /> should render without background and text color 1`] = `
   width: 100%;
 }
 
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media (max-width:768px) {
   .c4 {
     font-size: 4.0rem;
@@ -255,11 +257,11 @@ exports[`<GridText /> should render without background and text color 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Atue doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -271,11 +273,11 @@ exports[`<GridText /> should render without background and text color 1`] = `
             >
               Teste 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -285,11 +287,11 @@ exports[`<GridText /> should render without background and text color 1`] = `
             >
               Teste 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -299,11 +301,11 @@ exports[`<GridText /> should render without background and text color 1`] = `
             >
               Teste 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
         </div>
       </div>

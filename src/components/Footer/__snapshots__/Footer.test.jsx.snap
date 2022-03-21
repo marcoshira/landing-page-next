@@ -3,6 +3,7 @@
 exports[`<Footer /> should render 1`] = `
 .c4 {
   font-size: 2.4rem;
+  padding: 0rem;
 }
 
 .c2 {
@@ -39,13 +40,13 @@ exports[`<Footer /> should render 1`] = `
     <div
       class="c1 c2"
     >
-      <p
+      <div
         class="c3 c4"
       >
         <h1>
           Oi
         </h1>
-      </p>
+      </div>
     </div>
   </footer>
 </div>

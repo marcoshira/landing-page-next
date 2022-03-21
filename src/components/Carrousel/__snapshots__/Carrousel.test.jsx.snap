@@ -3,6 +3,7 @@
 exports[`<Carrousel /> should render 1`] = `
 .c5 {
   font-size: 2.4rem;
+  padding: 0rem;
 }
 
 .c2 > .c4 {
@@ -185,11 +186,11 @@ exports[`<Carrousel /> should render 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c4 c5"
         >
           Atue doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <button
           aria-label="Next Image"
           class="c6"
@@ -285,6 +286,7 @@ exports[`<Carrousel /> should render 1`] = `
 exports[`<Carrousel /> should render next and past image btns 1`] = `
 .c5 {
   font-size: 2.4rem;
+  padding: 0rem;
 }
 
 .c2 > .c4 {
@@ -467,11 +469,11 @@ exports[`<Carrousel /> should render next and past image btns 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c4 c5"
         >
           Atue doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <button
           aria-label="Next Image"
           class="c6"
@@ -567,6 +569,7 @@ exports[`<Carrousel /> should render next and past image btns 1`] = `
 exports[`<Carrousel /> should render next and past image btns 2`] = `
 .c5 {
   font-size: 2.4rem;
+  padding: 0rem;
 }
 
 .c2 > .c4 {
@@ -749,11 +752,11 @@ exports[`<Carrousel /> should render next and past image btns 2`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c4 c5"
         >
           Atue doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <button
           aria-label="Next Image"
           class="c6"
@@ -849,6 +852,7 @@ exports[`<Carrousel /> should render next and past image btns 2`] = `
 exports[`<Carrousel /> should render without background and text color 1`] = `
 .c5 {
   font-size: 2.4rem;
+  padding: 0rem;
 }
 
 .c2 > .c4 {
@@ -1031,7 +1035,7 @@ exports[`<Carrousel /> should render without background and text color 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c4 c5"
         />
         <button
