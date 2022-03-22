@@ -72,21 +72,16 @@ export const ButtonLeft = styled.button`
     color: ${theme.colors.white};
     border: 0.1rem solid ${theme.colors.mediumGray};
     opacity: 75%;
+    cursor: pointer;
 
     > svg {
       width: 2.5rem;
       height: 2.5rem;
     }
-    /*
-    position: absolute;
-    display: inline; */
     position: relative;
     top: 27rem;
     left: calc(15% -4rem);
 
-    /* @media ${theme.media.lteMedium} {
-      top: 45rem;
-    } */
     @media ${theme.media.lteSmall} {
       top: 20rem;
       left: -5%;
@@ -104,6 +99,7 @@ export const ButtonRight = styled.button`
     color: ${theme.colors.white};
     border: 0.1rem solid ${theme.colors.mediumGray};
     opacity: 75%;
+    cursor: pointer;
 
     > svg {
       width: 2.5rem;
