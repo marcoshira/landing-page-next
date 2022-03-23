@@ -1,0 +1,72 @@
+import * as Styled from './styles';
+import { SectionBackground } from '../SectionBackground';
+import { Heading } from '../Heading';
+import { TextComponent } from '../TextComponent';
+
+export type GridTwoColumnProps = {
+  title: string;
+  text: string;
+  srcImg: string;
+  background?:
+    | 'crimson'
+    | 'blue'
+    | 'navy'
+    | 'white'
+    | 'black'
+    | 'pink'
+    | 'purple'
+    | 'orange'
+    | 'green'
+    | 'lightBlue'
+    | 'yellow'
+    | 'brown'
+    | 'grey'
+    | 'oi';
+
+  sectionId?: string;
+  color?:
+    | 'crimson'
+    | 'blue'
+    | 'navy'
+    | 'white'
+    | 'black'
+    | 'pink'
+    | 'purple'
+    | 'orange'
+    | 'green'
+    | 'lightBlue'
+    | 'yellow'
+    | 'brown'
+    | 'grey'
+    | 'oi';
+  component?: string;
+};
+
+export const GridTwoColumn = ({
+  title,
+  text,
+  srcImg,
+  background = 'white',
+  color = 'navy',
+  sectionId = '',
+}: GridTwoColumnProps) => {
+  return (
+    <SectionBackground
+      background={background}
+      sectionId={sectionId}
+      color={color}
+    >
+      <Styled.Container>
+        <Styled.TextContainer>
+          <Heading uppercase as="h2">
+            {title}
+          </Heading>
+          <TextComponent>{text}</TextComponent>
+        </Styled.TextContainer>
+        <Styled.ImageContainer>
+          <Styled.Image src={srcImg} alt={title} />
+        </Styled.ImageContainer>
+      </Styled.Container>
+    </SectionBackground>
+  );
+};

@@ -73,6 +73,7 @@ exports[`<Carrousel /> should render 1`] = `
   color: #FFFFFF;
   border: 0.1rem solid #DDDDDD;
   opacity: 75%;
+  cursor: pointer;
   position: relative;
   top: 27rem;
   left: calc(15% -4rem);
@@ -91,6 +92,7 @@ exports[`<Carrousel /> should render 1`] = `
   color: #FFFFFF;
   border: 0.1rem solid #DDDDDD;
   opacity: 75%;
+  cursor: pointer;
   position: relative;
   top: 27rem;
   left: calc(95% - 3vw);
@@ -356,6 +358,7 @@ exports[`<Carrousel /> should render next and past image btns 1`] = `
   color: #FFFFFF;
   border: 0.1rem solid #DDDDDD;
   opacity: 75%;
+  cursor: pointer;
   position: relative;
   top: 27rem;
   left: calc(15% -4rem);
@@ -374,6 +377,7 @@ exports[`<Carrousel /> should render next and past image btns 1`] = `
   color: #FFFFFF;
   border: 0.1rem solid #DDDDDD;
   opacity: 75%;
+  cursor: pointer;
   position: relative;
   top: 27rem;
   left: calc(95% - 3vw);
@@ -639,6 +643,7 @@ exports[`<Carrousel /> should render next and past image btns 2`] = `
   color: #FFFFFF;
   border: 0.1rem solid #DDDDDD;
   opacity: 75%;
+  cursor: pointer;
   position: relative;
   top: 27rem;
   left: calc(15% -4rem);
@@ -657,6 +662,7 @@ exports[`<Carrousel /> should render next and past image btns 2`] = `
   color: #FFFFFF;
   border: 0.1rem solid #DDDDDD;
   opacity: 75%;
+  cursor: pointer;
   position: relative;
   top: 27rem;
   left: calc(95% - 3vw);
@@ -922,6 +928,7 @@ exports[`<Carrousel /> should render without background and text color 1`] = `
   color: #FFFFFF;
   border: 0.1rem solid #DDDDDD;
   opacity: 75%;
+  cursor: pointer;
   position: relative;
   top: 27rem;
   left: calc(15% -4rem);
@@ -940,6 +947,7 @@ exports[`<Carrousel /> should render without background and text color 1`] = `
   color: #FFFFFF;
   border: 0.1rem solid #DDDDDD;
   opacity: 75%;
+  cursor: pointer;
   position: relative;
   top: 27rem;
   left: calc(95% - 3vw);
